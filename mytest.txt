@@ -1,0 +1,1 @@
+python scripts/main.py --config-file configs/im_osnet_ibn_x1_0_softmax_256x128_amsgrad.yaml --root E:\chLi\deep_sort_pytorch\2019_2person_cut.mp4 --gpu-devices 0 model.load_weights E:\chLi\OpenVINO\osnet_ibn_x1_0_msmt17_combineall_256x128_amsgrad_ep150_stp60_lr0.0015_b64_fb10_softmax_labelsmooth_flip_jitter.pth test.evaluate True
